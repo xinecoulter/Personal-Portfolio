@@ -1,7 +1,6 @@
-class ProjectsController < ActionController::Base
-
-  layout 'application'
+class ProjectsController < ApplicationController
 
   def index
   end
+
 end
