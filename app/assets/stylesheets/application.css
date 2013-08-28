@@ -59,8 +59,15 @@ h1 {
   top: 0;
 }
 
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+}
+
 #social-media {
   text-align: center;
+  position: relative;
 }
 
 #resume {
