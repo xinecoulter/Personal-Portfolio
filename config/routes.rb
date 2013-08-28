@@ -2,7 +2,6 @@ PersonalPortfolio::Application.routes.draw do
   root to: 'welcome#index'
   get '/projects' => 'projects#index'
   get '/about' => 'about#index'
-  get '/contact' => 'contact#index'
   get '/resume' => 'resume#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
