@@ -18,34 +18,35 @@ html {
 }
 
 body {
-/*  height: 100%;
-  margin: 0;
-  background-repeat: no-repeat;
-  margin-bottom: 10%;*/
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /*margin-bottom: 10%;*/
 
   background-image: url("2012-04-22 NYC Reflection.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-/*  background-image: -ms-radial-gradient(center top, circle farthest-side, #73B7EB 0%, #3277BA 90%);
-  background-image: -moz-radial-gradient(center top, circle farthest-side, #73B7EB 0%, #3277BA 90%);
-  background-image: -o-radial-gradient(center top, circle farthest-side, #73B7EB 0%, #3277BA 90%);
-  background-image: -webkit-gradient(radial, center top, 0, center top, 485, color-stop(0, #73B7EB), color-stop(.9, #3277BA));
-  background-image: -webkit-radial-gradient(center top, circle farthest-side, #73B7EB 0%, #3277BA 90%);
-  background-image: radial-gradient(circle farthest-side at center top, #73B7EB 0%, #3277BA 90%);*/
 }
 
 h1 {
   text-align: center;
+  color: black;
 }
 
 #navbar {
   text-align: center;
+}
+
+#navbar a {
+  text-decoration: none;
+  padding: 1%;
+}
+
+#navbar a:hover {
+  color: black;
 }
 
 #bio {
@@ -57,28 +58,12 @@ h1 {
   background-color: white;
   opacity: 0.8;
 
-  border-style: solid;
   border-radius: 3px;
-  border-width: 1px;
 
   text-align: justify;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+  padding: 15px;
 
-#contact {
-  width: 20%;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-style: solid;
-  border-radius: 3px;
-  border-width: 1px;
-  position: absolute;
-  right: 3%;
-  top: 0;
+  color: #333333;
 }
 
 #footer {
@@ -90,9 +75,6 @@ h1 {
 
   background-color: white;
   opacity: 0.8;
-
-  border: solid;
-  border-width: 1px;
 }
 
 #social-media {
@@ -104,7 +86,6 @@ h1 {
 }
 
 #social-media div {
-  /*position: absolute;*/
   display: inline-block;
   padding: 0.5%;
 }
@@ -121,9 +102,19 @@ h1 {
   right: 2%;
 }
 
-#email a {
+#email img {
+  width: 6%;
+  height: auto;
+  padding: 1.2%;
   display: inline-block;
-  padding: 2.5%;
+}
+
+#email a {
+  text-decoration: none;
+}
+
+#email a:hover {
+  opacity: 0.4;
 }
 
 #resume {
