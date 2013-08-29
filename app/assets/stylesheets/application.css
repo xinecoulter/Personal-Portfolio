@@ -33,15 +33,22 @@ h1 {
 }
 
 #bio {
+  position: relative;
   width: 50%;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 0 auto;
+  top: 20%;
+
   border-style: solid;
   border-radius: 3px;
   border-width: 1px;
+
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #contact {
@@ -61,27 +68,41 @@ h1 {
 
 #footer {
   width: 100%;
-  position: absolute;
-  bottom: 5%;
+  position: fixed;
+  bottom: 0;
+
+  border: solid;
+  border-width: 1px;
 }
 
 #social-media {
   text-align: center;
   position: relative;
+  padding: 0.5%;
+}
+
+#social-media a {
+  padding: 0.5%;
 }
 
 #resume {
   width: 60%;
   height: auto;
+
+  position: relative;
+  top: 5%;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
+
   border-style: solid;
   border-width: 10px;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
-
-
-
 
 
 
