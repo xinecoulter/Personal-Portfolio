@@ -132,6 +132,12 @@ h1 {
   border-width: 10px;
 }
 
+.project {
+  display: inline-block;
 
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 3px;
+}
 
 
