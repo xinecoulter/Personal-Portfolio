@@ -58,5 +58,7 @@ module PersonalPortfolio
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.middleware.use Rack::GoogleAnalytics, :tracker => 'UA-43679069-1'
   end
 end
