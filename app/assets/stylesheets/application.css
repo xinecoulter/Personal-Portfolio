@@ -87,11 +87,18 @@ h1 {
   position: absolute;
 
   text-align: center;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
 }
 
 #social-media div {
   display: inline-block;
   padding: 0.5%;
+
+  border-width: 1px;
+  border-style: solid;
 }
 
 #social-media div:hover {
@@ -99,18 +106,26 @@ h1 {
 }
 
 #email {
-  width: 40%;
+  width: 20%;
   height: 100%;
   position: absolute;
   text-align: right;
   right: 2%;
+  top: auto;
+  bottom: auto;
+
+  border-style: solid;
+  border-width: 1px;
 }
 
 #email img {
-  width: 6%;
-  height: auto;
-  padding: 1.2%;
+  height: 70%;
+  width: auto;
+  padding: 2%;
   display: inline-block;
+
+  border-width: 1px;
+  border-style: solid;
 }
 
 #email a {
