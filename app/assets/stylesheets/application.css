@@ -149,11 +149,11 @@ h1 {
 .project {
   background-color: white;
   opacity: 0.8;
-  /*border-radius: 3px;*/
   text-align: center;
 
   width: 30.333333%;
-  height: 625px;
+  /*height: 625px;*/
+  height: 500px;
   float: left;
   padding: 1.5%;
 }
