@@ -125,30 +125,6 @@ h1 {
   opacity: 0.4;
 }
 
-#email {
-  width: 20%;
-  height: 100%;
-  position: absolute;
-  text-align: right;
-  right: 2%;
-  top: auto;
-  bottom: auto;
-}
-
-#email img {
-  height: 70%;
-  width: auto;
-  padding: 2%;
-}
-
-#email a {
-  text-decoration: none;
-}
-
-#email a:hover {
-  opacity: 0.4;
-}
-
 #resume {
   width: 50%;
   height: auto;
