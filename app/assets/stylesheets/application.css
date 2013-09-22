@@ -210,11 +210,6 @@ h1 {
 .screenshot {
   width: 100%;
   height: auto;
-
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
 .screenshot:hover {
@@ -224,11 +219,6 @@ h1 {
 .github-round-icon img {
   width: 8%;
   height: auto;
-
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
 .github-round-icon img:hover {
