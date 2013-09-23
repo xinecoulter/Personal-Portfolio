@@ -25,7 +25,8 @@ html {
   -o-background-size: cover;
   background-size: cover;
 
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: auto;
 }
 
 body {
