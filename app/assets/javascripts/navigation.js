@@ -6,7 +6,7 @@ $(document).ready(function() {
         $('body').fadeOut(500, newpage);
     });
 
-    $('body').css('display', 'none');
+    // $('body').css('display', 'none');
     $('body').fadeIn(1000);
 
     $('.portfolio-link').click(function(event) {
