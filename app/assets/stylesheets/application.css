@@ -45,6 +45,8 @@ body {
 h1 {
   text-align: center;
   color: black;
+
+  padding: 1% 0 1% 0;
 }
 
 #navbar {
