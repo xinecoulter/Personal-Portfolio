@@ -81,11 +81,6 @@ h1 {
   padding: 15px;
 
   color: #333333;
-
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
 #contact {
@@ -103,11 +98,6 @@ h1 {
   padding: 15px;
 
   color: #333333;
-
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
 #contact img {
@@ -187,11 +177,6 @@ h1 {
   height: 500px;
   float: left;
   padding: 1.5%;
-
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
 }
 
 #project1 {
