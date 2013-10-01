@@ -115,11 +115,15 @@ nav ul li a:focus {
   border-radius: 3px;
 
   /*text-align: center;*/
-  text-align: left;
+  text-align: justify;
   padding: 15px;
 
   color: #333333;
   font-size: 1.142857em;
+}
+
+#contact h1 {
+  text-align: left;
 }
 
 #contact img {
@@ -130,6 +134,10 @@ nav ul li a:focus {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+
+#contact article p:last-child {
+  text-align: center;
 }
 
 #contact img:hover {
