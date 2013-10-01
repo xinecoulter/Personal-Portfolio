@@ -49,23 +49,27 @@ h1 {
   padding: 1% 0 1% 0;
 }
 
-#navbar {
+nav ul {
+  list-style-type: none;
   text-align: center;
 }
 
-#navbar a {
-  text-decoration: none;
-  padding: 2.5%;
+nav ul li {
+  display: inline;
+}
 
+nav ul li a {
+  padding: 2.5%;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-#navbar a:hover,
-#navbar a:focus {
+nav ul li a:hover,
+nav ul li a:focus {
   color: black;
+  text-decoration: none;
 }
 
 #bio {
