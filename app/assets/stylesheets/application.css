@@ -82,7 +82,8 @@ nav ul li a:focus {
   position: relative;
   width: 50%;
   margin: 0 auto;
-  top: 15%;
+  /*top: 15%;*/
+  top: 5%;
   bottom: 5%;
 
   background-color: white;
