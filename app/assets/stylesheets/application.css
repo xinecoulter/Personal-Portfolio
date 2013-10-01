@@ -184,14 +184,14 @@ a img:hover {
   border-radius: 3px;
 }
 
-.project {
-  padding: 1.071428em; /*15px / 14px*/
-}
-
 #container {
   text-align: center;
   width: 100%;
   margin: 0 auto;
+}
+
+.project {
+  padding: 1.071428em; /*15px / 14px*/
 }
 
 .project h1 {
@@ -206,6 +206,7 @@ a img:hover {
 
 .project p {
   text-align: justify;
+  font-size: 1.142857em; /*16px / 14px*/
 }
 
 .project img {
