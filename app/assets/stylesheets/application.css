@@ -15,16 +15,13 @@
 
 html {
   height: 100%;
-
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   background-image: url("2012-04-22 NYC Reflection-X2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   overflow-y: scroll;
   overflow-x: auto;
 }
@@ -34,7 +31,6 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   background-image: url("2012-04-22 NYC Reflection-X2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -42,16 +38,13 @@ body {
   background-size: cover;
 }
 
-h1 {
+#name {
   text-align: center;
-  color: black;
-
   padding-top: 1%;
 }
 
-h2 {
+#tagline {
   text-align: center;
-
   padding-bottom: 1%;
 }
 
@@ -80,22 +73,16 @@ nav ul li a:focus {
 
 #bio {
   position: relative;
-  /*width: 50%;*/
   width: 43%;
   margin: 0 auto;
-  /*top: 15%;*/
   top: 5%;
   bottom: 5%;
-
   background-color: white;
-
   border-radius: 3px;
-
   text-align: justify;
-  padding: 15px;
-
+  padding: 1.071428em; /*15px / 14px*/
   color: #333333;
-  font-size: 1.142857em;
+  font-size: 1.142857em; /*16px / 14px*/
 }
 
 #bio h1 {
@@ -104,22 +91,16 @@ nav ul li a:focus {
 
 #contact {
   position: relative;
-  /*width: 50%;*/
   width: 43%;
   margin: 0 auto;
   top: 15%;
   bottom: 5%;
-
   background-color: white;
-
   border-radius: 3px;
-
-  /*text-align: center;*/
   text-align: justify;
-  padding: 15px;
-
+  padding: 1.071428em; /*15px / 14px*/
   color: #333333;
-  font-size: 1.142857em;
+  font-size: 1.142857em; /*16px / 14px*/
 }
 
 #contact h1 {
@@ -129,7 +110,6 @@ nav ul li a:focus {
 #contact img {
   width: 5%;
   height: auto;
-
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -150,7 +130,6 @@ nav ul li a:focus {
   position: fixed;
   bottom: 0;
   left: 0;
-
   background-color: white;
   opacity: 0.8;
 }
@@ -159,14 +138,12 @@ nav ul li a:focus {
   height: 100%;
   width: 100%;
   position: absolute;
-
   text-align: center;
 }
 
 #social-media div {
   display: inline-block;
   padding: 0.5%;
-
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -182,9 +159,7 @@ nav ul li a:focus {
   height: auto;
   padding-top: 2%;
   padding-bottom: 5%;
-
   position: relative;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -193,7 +168,6 @@ nav ul li a:focus {
 .container {
   width: 100%;
   height: auto;
-
   padding-top: 2%;
   padding-bottom: 10%;
 }
@@ -203,7 +177,6 @@ nav ul li a:focus {
   text-align: center;
 
   width: 30.333333%;
-  /*height: 625px;*/
   height: 500px;
   float: left;
   padding: 1.5%;
