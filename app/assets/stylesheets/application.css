@@ -109,7 +109,7 @@ footer {
 
 nav a,
 footer img,
-#contact img {
+#contact img, {
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;

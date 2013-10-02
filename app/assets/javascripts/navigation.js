@@ -1,11 +1,4 @@
 $(document).ready(function() {
-
-    // $("#bio").click(function(event){
-    //     event.preventDefault();
-    //     newLocation = "/projects";
-    //     $('body').fadeOut(500, newpage);
-    // });
-
     $('body').css('display', 'none');
     $('body').fadeIn(1000);
 
@@ -18,5 +11,4 @@ $(document).ready(function() {
     function newpage() {
         window.location = newLocation;
     }
-
 });
