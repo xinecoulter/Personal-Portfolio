@@ -42,7 +42,8 @@ body {
   text-align: center;
   margin-top: 2%;
   font-size: 4.285714em; /*60px / 14px*/
-  color: #7C9CDC;
+  color: white;
+  opacity: 0.8;
   font-family: arial;
 }
 
@@ -51,6 +52,7 @@ body {
   margin-bottom: 1%;
   font-size: 2.142857em; /*30px / 14px*/
   color: #7C9CDC;
+  opacity: 0.8;
   font-family: baskerville;
 }
 
@@ -113,7 +115,7 @@ footer {
 
 nav a,
 footer img,
-#contact img, {
+#contact img {
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -190,11 +192,6 @@ a img:hover {
 }
 
 /*-----------------------styling for resume-----------------------*/
-
-/*#outside-resume {
-  width: 100%;
-  height: 100%;
-}*/
 
 #resume {
   width: 50%;
