@@ -40,14 +40,18 @@ body {
 
 #name {
   text-align: center;
-  margin-top: 1%;
+  margin-top: 2%;
   font-size: 4.285714em; /*60px / 14px*/
+  /*color: rgba(40, 0, 100, 1);*/
+  color: #7C9CDC;
 }
 
 #tagline {
   text-align: center;
   margin-bottom: 1%;
   font-size: 2.142857em; /*30px / 14px*/
+  /*color: rgba(40, 0, 100, 1);*/
+  color: #7C9CDC;
 }
 
 /*-----------------------styling for nav and footer-----------------------*/
@@ -77,11 +81,19 @@ footer a {
   margin: 2.5%;
 }
 
+nav a:link {
+  color: #CD5120;
+}
+
+nav a:visited {
+  color: #CD5120;
+}
+
 nav a:hover,
 nav a:focus,
 footer a:hover,
 footer a:focus {
-  color: black;
+  color: #24275E;
   text-decoration: none;
 }
 
@@ -117,11 +129,17 @@ a img:hover {
   top: 5%;
   bottom: 5%;
   background-color: white;
+  opacity: 0.8;
   border-radius: 3px;
   text-align: justify;
   padding: 1.071428em; /*15px / 14px*/
-  color: #333333;
+  /*color: #333333;*/
+  color: #0062D3;
   font-size: 1.142857em; /*16px / 14px*/
+}
+
+#bio:hover {
+  opacity: 1;
 }
 
 #bio h1 {
@@ -138,11 +156,17 @@ a img:hover {
   top: 15%;
   bottom: 5%;
   background-color: white;
+  opacity: 0.8;
   border-radius: 3px;
   text-align: justify;
   padding: 1.071428em; /*15px / 14px*/
-  color: #333333;
+  /*color: #333333;*/
+  color: #0062D3;
   font-size: 1.142857em; /*16px / 14px*/
+}
+
+#contact:hover {
+  opacity: 1;
 }
 
 #contact h1 {
@@ -185,7 +209,12 @@ a img:hover {
   height: 80%;
   margin: 1.5%;
   background-color: white;
+  opacity: 0.8;
   border-radius: 3px;
+}
+
+.outer:hover {
+  opacity: 1;
 }
 
 #container {
@@ -196,6 +225,7 @@ a img:hover {
 
 .project {
   padding: 1.071428em; /*15px / 14px*/
+  color: #0062D3;
 }
 
 .project h1 {
