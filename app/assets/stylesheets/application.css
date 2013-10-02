@@ -42,16 +42,16 @@ body {
   text-align: center;
   margin-top: 2%;
   font-size: 4.285714em; /*60px / 14px*/
-  /*color: rgba(40, 0, 100, 1);*/
   color: #7C9CDC;
+  font-family: arial;
 }
 
 #tagline {
   text-align: center;
   margin-bottom: 1%;
   font-size: 2.142857em; /*30px / 14px*/
-  /*color: rgba(40, 0, 100, 1);*/
   color: #7C9CDC;
+  font-family: baskerville;
 }
 
 /*-----------------------styling for nav and footer-----------------------*/
@@ -79,6 +79,10 @@ footer li {
 nav a,
 footer a {
   margin: 2.5%;
+}
+
+nav a {
+  font-family: arial;
 }
 
 nav a:link {
@@ -124,18 +128,18 @@ a img:hover {
 
 #bio {
   position: relative;
-  width: 43%;
+  width: 41%;
   margin: 0 auto;
   top: 5%;
   bottom: 5%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 3px;
   text-align: justify;
   padding: 1.071428em; /*15px / 14px*/
-  /*color: #333333;*/
-  color: #0062D3;
-  font-size: 1.142857em; /*16px / 14px*/
+  color: #666666;
+  font-size: 1.214285em; /*17px / 14px*/
+  font-family: baskerville;
 }
 
 #bio:hover {
@@ -145,24 +149,25 @@ a img:hover {
 #bio h1 {
   text-align: left;
   font-size: 1.571428em; /*22px / 14px*/
+  font-family: arial;
 }
 
 /*-----------------------styling for contact-----------------------*/
 
 #contact {
   position: relative;
-  width: 43%;
+  width: 41%;
   margin: 0 auto;
-  top: 15%;
+  top: 5%;
   bottom: 5%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 3px;
   text-align: justify;
   padding: 1.071428em; /*15px / 14px*/
-  /*color: #333333;*/
-  color: #0062D3;
-  font-size: 1.142857em; /*16px / 14px*/
+  color: #666666;
+  font-size: 1.214285em; /*17px / 14px*/
+  font-family: baskerville;
 }
 
 #contact:hover {
@@ -172,6 +177,7 @@ a img:hover {
 #contact h1 {
   text-align: left;
   font-size: 1.571428em; /*22px / 14px*/
+  font-family: arial;
 }
 
 #contact img {
@@ -185,11 +191,15 @@ a img:hover {
 
 /*-----------------------styling for resume-----------------------*/
 
+/*#outside-resume {
+  width: 100%;
+  height: 100%;
+}*/
+
 #resume {
   width: 50%;
   height: auto;
-  padding-top: 2%;
-  padding-bottom: 5%;
+  padding: 2.75% 0 7% 0;
   position: relative;
   display: block;
   margin-left: auto;
@@ -201,15 +211,16 @@ a img:hover {
 #container{
   width: 100%;
   height: 100%;
+  margin-top: 5%;
 }
 
 .outer {
   float: left;
   width: 30.333333%;
   height: 80%;
-  margin: 1.5%;
+  margin: 0 1.5% 0 1.5%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 3px;
 }
 
@@ -217,20 +228,16 @@ a img:hover {
   opacity: 1;
 }
 
-#container {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .project {
   padding: 1.071428em; /*15px / 14px*/
-  color: #0062D3;
+  color: #666666;
+  font-family: baskerville;
 }
 
 .project h1 {
   text-align: left;
   font-size: 1.571428em; /*22px / 14px*/
+  font-family: arial;
 }
 
 .project h2 {
@@ -240,11 +247,15 @@ a img:hover {
 
 .project p {
   text-align: justify;
-  font-size: 1.142857em; /*16px / 14px*/
+  font-size: 1.214285em; /*17px / 14px*/
 }
 
 .project img {
   margin-bottom: 5%;
+}
+
+.project:last-child {
+  text-align: center;
 }
 
 .github-round-icon img {
