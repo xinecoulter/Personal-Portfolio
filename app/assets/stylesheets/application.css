@@ -52,6 +52,10 @@ body {
 
 /*-----------------------styling for nav and footer-----------------------*/
 
+nav {
+  font-size: 1.285714em; /*18px / 14px*/
+}
+
 nav,
 footer {
   width: 100%;
