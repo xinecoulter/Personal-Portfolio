@@ -7,14 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="wrap">
+    <div id="main-header">
+      <div class="col-md-6 col-md-offset-3">
+        <h1 id="name">Christine Coulter</h1>
+        <h2 id="tagline">Biomedical Engineer Turned Web Developer</h2>
+        <%= render partial: "navbar" %>
+      </div>
+    </div>
 
-<header id="main-header">
-  <h1 id="name">Christine Coulter</h1>
-  <h2 id="tagline">Biomedical Engineer Turned Web Developer</h2>
-  <%= render partial: "navbar" %>
-</header>
-
-  <%= yield %>
+    <%= yield %>
+  </div>
 
   <%= render partial: "footer" %>
 </body>
